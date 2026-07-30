@@ -1,7 +1,5 @@
 /* Cabeçalho */
-
 header {
-    background-color:rgb(12, 12, 63);
     text-align:center;
     color:rgb(255, 255, 255);
     padding:10px;
@@ -12,6 +10,8 @@ header {
     margin-right: 30px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    font-family:monospace;
+    background: linear-gradient(to right, rgb(35, 96, 177), rgb(35, 177, 177));
 }
 
 body {
@@ -19,22 +19,19 @@ body {
 }
 
 .titulo {
+    font-size: 50px;
+}
+
+.tema {
     font-size: 40px;
 }
 
-p {
-    font-size: 30px;
-}
-
-h2{
-    font-size: 35px;
-    color:rgb(83, 133, 225);
-}
-
 nav {
-    background-color:rgb(5, 74, 165);
+    display: flex;
+    justify-content: center;
+    background-color:rgb(12, 12, 63);
     padding: 15px;
-    font-size: 20px;
+    font-size: 21px;
     margin-left: 30px;
     margin-right: 30px;
     border-bottom-left-radius: 10px;
@@ -42,9 +39,13 @@ nav {
 }
 
 nav a {
+    height:auto;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    margin: 40px;
+    margin: 5px;
+    margin-right: 70px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Pagina inicial */
@@ -55,4 +56,78 @@ main {
     margin-right: 200px;
     padding: 50px;
     border-radius: 10px;
+}
+
+h2{
+    font-size: 35px;
+    color:rgb(83, 133, 225);
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
+p {
+    font-size: 30px;
+    text-align: justify;
+    color:rgb(60, 62, 75);
+}
+
+mark {
+    background-color: aquamarine;
+}
+
+.container_img_placa {
+    display: flex;
+    justify-content: center;
+}
+
+.img_placa {
+    height:auto;   
+}
+
+/* problema*/
+.lista_p{
+    font-size: 30px;
+    text-align: justify;
+    color:rgb(60, 62, 75);
+}
+
+.subtitulo_h3 {
+    color:rgb(60, 62, 75);
+}
+
+/* footer*/
+footer {
+    display:flex;
+    gap:10px;
+    background-color:rgb(12, 12, 63);
+    color: white;
+    margin: 30px;
+    margin-bottom: 0px;
+    margin-top:10px;
+    padding: 30px;
+    border-radius:10px;
+    color: rgb(49, 49, 182);
+}
+
+.p_footer {
+    color: rgb(49, 49, 182);
+    font-size: 25px;
+}
+
+.link_footer{
+    justify-content:right;
+    flex:0;
+}
+
+h3 {
+    font-size:30px;
+}
+
+.fontes {
+    font-size: 20px;
+    color: rgb(49, 49, 182);
+}
+
+.texto_footer{
+    flex:1;
 }
