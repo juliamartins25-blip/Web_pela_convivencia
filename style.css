@@ -75,12 +75,12 @@ mark {
     background-color: aquamarine;
 }
 
-.container_img_placa {
+.container_img {
     display: flex;
     justify-content: center;
 }
 
-.img_placa {
+.img {
     height:auto;   
 }
 
@@ -91,8 +91,9 @@ mark {
     color:rgb(60, 62, 75);
 }
 
-.subtitulo_h3 {
-    color:rgb(60, 62, 75);
+h3 {
+    color:rgb(30, 30, 77);
+    font-size:30px;
 }
 
 /* footer*/
@@ -118,9 +119,9 @@ footer {
     justify-content:right;
     flex:0;
 }
-
-h3 {
+.h3_footer{
     font-size:30px;
+    color: rgb(49, 49, 182);
 }
 
 .fontes {
