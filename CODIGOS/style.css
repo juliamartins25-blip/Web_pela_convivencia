@@ -49,7 +49,7 @@ nav a {
     height:auto;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    margin: 5px;
+    margin: 8px;
     margin-right: 70px;
     font-weight: bold;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -99,8 +99,8 @@ mark {
 }
 
 h3 {
-    color:rgb(30, 30, 77);
-    font-size:30px;
+    color:rgb(19, 19, 119);
+    font-size:32px;
 }
 
 /* footer*/
@@ -138,4 +138,48 @@ footer {
 
 .texto_footer{
     flex:1;
+}
+
+/*comentario*/
+.comentario {
+    background-color:white;
+    margin: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+label{
+    font-size: 30px;
+    color:rgb(60, 62, 75);
+}
+
+.botao_enviar{
+    font-size:20px;
+}
+
+textarea {
+    width:80%;
+    font-size:20px;
+}
+
+/*sobre*/
+
+.header_rosa{
+    background: linear-gradient(to right, rgb(177, 35, 123), rgb(184, 9, 219));
+}
+
+.h3_rosa {
+    color:rgb(119, 19, 94);
+}
+
+.h2_rosa {
+    margin-top:80px;
+    color:rgb(225, 83, 178);
+}
+
+.container_autora{
+    display:flex;
+    gap: 10%;
 }
